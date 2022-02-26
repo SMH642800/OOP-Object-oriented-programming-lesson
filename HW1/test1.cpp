@@ -35,9 +35,9 @@ int highestScore(const studentType* sList, int listSize) {
 }
 
 void printResult(fstream& outFile, studentType* sList, int listSize) {
+    // left : 置左，setw(n) << "string" : 共強制空20格字元，若20 - len(string)後仍有空位，則以空白填空格子
     outFile << left << setw(20) << "Student Name" << setw(15) << "Test Score" <<  "Grade" << endl;
     for (int i = 0; i < listSize; i++) {
-        // left : 置左，setw(n) << "string" : 共強制空20格字元，若20 - len(string)後仍有空位，則以空白填空格子
         outFile << left << setw(23) << sList[i].studentLName + ", " + sList[i].studentFName << setw(14) << sList[i].testScore <<  sList[i].grade << endl;
     }
     outFile << "\nHighest Test Score: " << highestScore(sList, STUDENT_TOTAL) << endl;
