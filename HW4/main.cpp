@@ -6,10 +6,9 @@
 using namespace std;
 int main()
 {
-    personType newPerson("Steve", "Job");
+
     partTimeEmployee newEmp("John", "Smith", 20, 67);
 
-    newPerson.print();
     cout << endl;
     newEmp.print();
 

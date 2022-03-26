@@ -1,5 +1,5 @@
 #include <iostream>
-#define student_total 4
+#define student_total 20
 using namespace std;
 
 struct studentScore {
