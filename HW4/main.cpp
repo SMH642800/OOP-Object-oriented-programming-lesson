@@ -6,7 +6,8 @@
 using namespace std;
 int main()
 {
-
+    personType newPer("John", "Smith");
+    personType newPerson("Steve", "Job");
     partTimeEmployee newEmp("John", "Smith", 20, 67);
 
     cout << endl;
