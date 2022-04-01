@@ -27,7 +27,7 @@ public:
         lastName = last;
     }
 
-private:
+protected:
     string firstName;
     string lastName;
 };
