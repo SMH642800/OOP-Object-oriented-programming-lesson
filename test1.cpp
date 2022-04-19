@@ -53,12 +53,42 @@ int main()
     }
     */
 
-    classExample *cExpPtr;
-    classExample cExpObject;
-    cExpPtr = &cExpObject;
-    cExpPtr->setX(5);
-    cExpPtr->print();
+    int row, col;
 
+    cout << "Enter row size:";
+    cin >> row;
+    cout << "\ncol:";
+    cin >> col;
+
+    int *p_board[row];
+    for (int i=0; i < row; i++)
+        p_board[i] = new int[col];
+
+    for (int i=0; i < row; i++)
+    {
+        for (int j=0; j < col; j++)
+        {
+            p_board[i][j] = j;
+            cout << p_board[i][j] << " ";
+        }
+        cout << endl;
+    }
+    cout << endl << endl;
+
+    int **p_p_board;
+    p_p_board = new int* [row];
+    for (int i=0; i < row; i++)
+        p_p_board[i] = new int[col];
+
+    for (int i=0; i < row; i++)
+    {
+        for (int j=0; j < col; j++)
+        {
+            p_p_board[i][j] = j;
+            cout << p_p_board[i][j] << " ";
+        }
+        cout << endl;
+    }
 
     return 0;
 }
