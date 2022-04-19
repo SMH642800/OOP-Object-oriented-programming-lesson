@@ -32,10 +32,9 @@ protected:
     }
 public:
     double getArea() const {return area;}
-    Trapezoid(double t = 0.0, double b = 0.0, double h = 0.0){
+    Trapezoid(double t = 0.0, double b = 0.0, double h = 0.0):Parallelogram(b, h){
         if(t >= 0.0) topSide = t;
         else topSide = 0.0;
-        Parallelogram::setData(b, h);
         calArea();
     }
 };
