@@ -14,14 +14,25 @@ void ptrMemberVarType::print() const
 void ptrMemberVarType::insertAt(int index, int num)
 {
     // If index is out of bounds, terminate the program
-    assert(index >= 0 && index < maxSize);
+    //assert(index >= 0 && index < maxSize);
 
+    if(index >= 0 && index < maxSize){
+        if(index < length)
+        p[index] = num;
+        else{
+            p[length] = num;
+            length++;
+        }
+    }
+
+    /*
     if(index < length)
         p[index] = num;
     else{
         p[length] = num;
         length++;
     }
+    */
 }
 
 ptrMemberVarType::ptrMemberVarType(int size)
