@@ -21,6 +21,7 @@ public:
     Shape(){perimeter = 0.0; area = 0.0;}
 };
 
+// 直角三角形
 class RightTriangle : public Shape {
 private:
     double width, height;
@@ -35,12 +36,12 @@ public:
         double p, length;
         length = sqrt(width*width+height*height);
         p = (length+width+height);
-        Shape::setPerimeter(p);
+        setPerimeter(p);
     }
     void calArea(){
         double a;
         a = width*height/2;
-        Shape::setArea(a);
+        setArea(a);
     }
     RightTriangle() {width = 0.0; height = 0.0;}
     RightTriangle(double w, double h){
@@ -48,6 +49,7 @@ public:
     }
 };
 
+// 長方形
 class Rectangle : public Shape {
 private:
     double width, height;
@@ -61,12 +63,12 @@ public:
     void calPerimeter(){
         double p;
         p = 2*(width+height);
-        Shape::setPerimeter(p);
+        setPerimeter(p);
     }
     void calArea(){
         double a;
         a = width*height;
-        Shape::setArea(a);
+        setArea(a);
     }
     Rectangle() {width = 0.0, height = 0.0;}
     Rectangle(double w, double h){
@@ -85,12 +87,12 @@ public:
     void calPerimeter(){
         double p;
         p = 2*3.14159265*radius;
-        Shape::setPerimeter(p);
+        setPerimeter(p);
     }
     void calArea(){
         double a;
         a = 3.14159265*(radius*radius);
-        Shape::setArea(a);
+        setArea(a);
     }
     Circle() {radius = 0.0;}
     Circle(double r){

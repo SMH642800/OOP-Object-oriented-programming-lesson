@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iomanip>
 #include<string>
 using namespace std;
 
@@ -50,7 +51,8 @@ public:
     }
 
     boxType(double l = 0, double w = 0, double h = 0) : rectangleType(l, w) {
-        setDimension(l, w, h);
+        if(h >= 0) height = h;
+        else height = 0;
     }
 
 private:
@@ -63,6 +65,8 @@ int main()
     double fenceCostPerFoot, fertilizerCostPerSquareFoot;
     double length, width;
     double billingAmount;
+
+    cout << fixed << setprecision(4);
 
     cout << "Enter the length and width of the yard (in feet): ";
     cin >> length >> width;
