@@ -46,7 +46,7 @@ public:
 
     ptrMemberVarType(const ptrMemberVarType &otherObject)
     {
-        maxSize = otherObject.maxSize;  // this¥Nªí¦Û¤v¥»¨­
+        maxSize = otherObject.maxSize;  // this.maxSize, thisä»£è¡¨è‡ªå·±æœ¬èº«
         length = otherObject.length;
         p = new int[maxSize];
 
