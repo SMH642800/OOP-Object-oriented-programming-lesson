@@ -21,7 +21,7 @@ public:
     Shape(){perimeter = 0.0; area = 0.0;}
 };
 
-// ª½¨¤¤T¨¤§Î
+// ç›´è§’ä¸‰è§’å½¢
 class RightTriangle : public Shape {
 private:
     double width, height;
@@ -49,7 +49,7 @@ public:
     }
 };
 
-// ªø¤è§Î
+// é•·æ–¹å½¢
 class Rectangle : public Shape {
 private:
     double width, height;
