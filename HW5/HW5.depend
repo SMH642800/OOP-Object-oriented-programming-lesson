@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1650370679 source:d:\smh64\documents\•¨Œ“±Œü’ö®İŒv\hw5\ptrmembervartype.cpp
+	"ptrMemberVarType.h"
+	<iostream>
+	<assert.h>
+
+1649929436 d:\smh64\documents\•¨Œ“±Œü’ö®İŒv\hw5\ptrmembervartype.h
+	<iostream>
+
+1652343954 source:d:\smh64\documents\•¨Œ“±Œü’ö®İŒv\hw5\main.cpp
+	<iostream>
+	"ptrMemberVarType.h"
+

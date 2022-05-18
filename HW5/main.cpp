@@ -1,5 +1,5 @@
 #include <iostream>                                 //Line 1
-#include "ptrMemberVarType.h"                       //Line 2
+#include "ptrMemberVarType.h"                      //Line 2
 
 using namespace std;                                //Line 3
 

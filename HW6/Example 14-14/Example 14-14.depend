@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1652359150 source:d:\smh64\documents\•¨Œ“±Œü’ö®İŒv\hw6\example 14-14\main.cpp
+	<iostream>
+	<iomanip>
+	"negativeNumber.h"
+	"circleType.h"
+
+1652357106 d:\smh64\documents\•¨Œ“±Œü’ö®İŒv\hw6\example 14-14\negativenumber.h
+	<iostream>
+
+1652357962 d:\smh64\documents\•¨Œ“±Œü’ö®İŒv\hw6\example 14-14\circletype.h
+	<iostream>
+

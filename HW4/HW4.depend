@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1648646008 source:d:\smh64\documents\物件導向程式設計\hw4\main.cpp
+	<iostream>
+	<string>
+	"personType.h"
+	"partTimeEmployee.h"
+
+1648225875 d:\smh64\documents\物件導向程式設計\hw4\persontype.h
+	<string>
+
+1649218130 d:\smh64\documents\物件導向程式設計\hw4\parttimeemployee.h
+	"personType.h"
+	<string>
+
+1648226341 source:d:\smh64\documents\物件導向程式設計\hw4\parttimeemployee.cpp
+	"partTimeEmployee.h"
+	<iostream>
+	<string>
+

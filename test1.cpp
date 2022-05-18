@@ -53,7 +53,7 @@ int main()
     }
     */
 
-    int row, col;
+    int row=0, col=0;
 
     cout << "Enter row size:";
     cin >> row;

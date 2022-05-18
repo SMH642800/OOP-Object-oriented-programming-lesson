@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1652360271 source:d:\smh64\documents\物件導向程式設計\hw6\hw6\circletypeimp.cpp
+	"circleType.h"
+	"negativeNumber.h"
+	<iostream>
+
+1652360213 d:\smh64\documents\物件導向程式設計\hw6\hw6\circletype.h
+	<iostream>
+
+1652360555 d:\smh64\documents\物件導向程式設計\hw6\hw6\negativenumber.h
+	<iostream>
+	<string>
+
+1652360646 source:d:\smh64\documents\物件導向程式設計\hw6\hw6\negativenumberimp.cpp
+	<iostream>
+	"negativeNumber.h"
+	<string>
+
